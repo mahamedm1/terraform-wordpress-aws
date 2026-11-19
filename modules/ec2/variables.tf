@@ -23,7 +23,7 @@ variable "instance_name" {
 variable "ami_id" {
   type        = string
   description = "Ubuntu AMI for eu-west-2"
-  default     = "ami-060423653522ff830"
+  default     = "ami-0735c39715d355947"
 }
 
 variable "key_name" {
