@@ -11,3 +11,12 @@ resource "aws_vpc" "wordpress" {
     }
 }
 
+resource "aws_subnet" "main" {
+    vpc_id = aws_vpc.wordpress.id
+    cidr_block = var.subnet_cidr
+
+    tags = {
+        Name = var.subnet_name
+    }
+}
+
