@@ -8,3 +8,10 @@ variable "sg_name"{
     description = "Security group name"
     default = "sg_01"
 }
+
+variable "ssh_cidr"{
+    type = string
+    description = "Range of IP which can ssh into our instance"
+}
+
+
