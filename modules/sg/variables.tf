@@ -14,4 +14,3 @@ variable "ssh_cidr"{
     description = "Range of IP which can ssh into our instance"
 }
 
-
